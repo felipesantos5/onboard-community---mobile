@@ -46,7 +46,7 @@
 
   }
 
-  &__inputs {
+  &__input {
     display: flex;
     gap: 17px;
     margin-bottom: 63px;
@@ -63,18 +63,19 @@
       display: none;
     }
 
-  }
+    .bord {
+      width: 10px;
+      height: 10px;
+      border: 1px solid black;
+    }
 
-  .bord {
-    width: 10px;
-    height: 10px;
-    border: 1px solid black;
-  }
+    .selected {
+      width: 12px;
+      height: 12px;
+      background-color: $primary-color;
 
-  .selected {
-    background-color: $primary-color;
-    width: 12px;
-    height: 12px;
+    }
+
   }
 
   &__button {
@@ -96,25 +97,17 @@
 
   }
 
-  a {
+  &__anchor {
     font-family: 'Poppins';
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
-    color: blue;
+    color: $primary-color;
 
     margin-top: 42px;
 
-  }
-
-  .anchor--white {
-    color: #FFFFFF;
-  }
-
-  .anchor--green {
-    color: $primary-color;
   }
 
 }

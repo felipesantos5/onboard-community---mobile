@@ -5,38 +5,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>onboard (community) - mobile</title>
 
-  <script src="script.js" defer></script>
-  <link rel="stylesheet" href="styles/style.css">
+  <script src="../js/script.js" defer></script>
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
   <main class="content">
-    <img class="content__image" src="images/image-2.svg" alt="">
+    <img class="content__image" src="/images/image-2.svg" alt="">
 
     <h1 class="content__title">Get fast & safe delivery</h1>
 
     <p class="content__text">Get good quality products for your plants </p>
 
-    <div class="content__inputs">
+    <div class="content__input">
 
       <label class="bord" for="page" onclick="RedirectPage1()">
-        <input id="imput-page1" type="radio" name="page" value="page1" checked>
+        <input id="input-page1" type="radio" name="page" value="page1" checked>
       </label>
 
       <label class="selected" for="page" onclick="RedirectPage2()">
-        <input id="imput-page2" type="radio" name="page" value="page2">
+        <input id="input-page2" type="radio" name="page" value="page2">
       </label>
 
       <label class="bord" for="page" onclick="RedirectPage3()">
-        <input id="imput-page3" type="radio" name="page" value="page3">
+        <input id="input-page3" type="radio" name="page" value="page3">
       </label>
     </div>
 
     <button class="content__button" onclick="RedirectPage3()">Continue</button>
     
-    <a class="anchor--green" href="page3.html">Skip</a>
+    <a class="content__anchor" href="page3.html">Skip</a>
   </main>
 </body>
 

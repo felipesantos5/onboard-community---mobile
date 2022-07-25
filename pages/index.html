@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>onboard (community) - mobile</title>
+
+  <script src="../js/script.js" defer></script>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+  <main class="content">
+    <img class="content__image" src="/images/image-1.svg" alt="">
+
+    <h1 class="content__title">Plant lover Community</h1>
+
+    <p class="content__text">Find gardening enthusiasts from all over the world</p>
+
+    <div class="content__input">
+
+      <label class="selected" onclick="RedirectPage1()">
+        <input id="input-page1" type="radio" name="page" checked >
+      </label>
+
+      <label class="bord" onclick="RedirectPage2()">
+        <input id="input-page2" type="radio" name="page">
+      </label>
+
+      <label class="bord" onclick="RedirectPage3()">
+        <input id="input-page3" type="radio" name="page">
+      </label>
+    </div>
+
+    <button class="content__button" onclick="RedirectPage2()">Continue</button>
+
+    <a class="content__anchor" href="page3.html" >Skip</a>
+  </main>
+</body>
+
+</html>
