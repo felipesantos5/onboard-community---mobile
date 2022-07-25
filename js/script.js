@@ -21,7 +21,7 @@ function RedirectPage1() {
 }
 
 function RedirectPage2() {
-  window.location ="./papage2.html"
+  window.location ="page2.html"
 
 }
 
