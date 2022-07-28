@@ -1,30 +1,20 @@
-// redirects index.html :
-
 function RedirectIndex1() {
-  window.location ="index.html"
+  page1.style.display = "flex"
+  page2.style.display = "none"
+  page3.style.display = "none"
 
 }
+
 function RedirectIndex2() {
-  window.location ="./pages/page2.html"
+  page1.style.display = "none"
+  page2.style.display = "flex"
+  page3.style.display = "none"
 
 }
+
 function RedirectIndex3() {
-  window.location ="./pages/page3.html"
+  page1.style.display = "none"
+  page2.style.display = "none"
+  page3.style.display = "flex"
 
-}
-
-// redirects other pages :
-
-function RedirectPage1() {
-  window.location ="../index.html"
-
-}
-
-function RedirectPage2() {
-  window.location ="page2.html"
-
-}
-
-function RedirectPage3() {
-  window.location ="page3.html"
 }

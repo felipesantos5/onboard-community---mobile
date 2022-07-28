@@ -14,32 +14,89 @@
 </head>
 
 <body>
-  <main class="content">
-    <img class="content__image" src="./images/image-1.svg" alt="">
+  <main>
+    <section class="content" id="page1">
+      <img class="content__image" src="./images/image-1.svg" alt="">
 
-    <h1 class="content__title">Plant lover Community</h1>
+      <h1 class="content__title">Plant lover Community</h1>
 
-    <p class="content__text">Find gardening enthusiasts from all over the world</p>
+      <p class="content__text">Find gardening enthusiasts from all over the world</p>
 
-    <div class="content__input">
+      <div class="content__input">
 
-      <label class="selected" onclick="RedirectIndex1()">
-        <input id="input-page1" type="radio" name="page" checked>
-      </label>
+        <label class="selected" onclick="RedirectIndex1()">
+          <input id="input-page1" type="radio" name="page" checked>
+        </label>
 
-      <label class="bord" onclick="RedirectIndex2()">
-        <input id="input-page2" type="radio" name="page">
-      </label>
+        <label class="bord" onclick="RedirectIndex2()">
+          <input id="input-page2" type="radio" name="page">
+        </label>
 
-      <label class="bord" onclick="RedirectIndex3()">
-        <input id="input-page3" type="radio" name="page">
-      </label>
-    </div>
+        <label class="bord" onclick="RedirectIndex3()">
+          <input id="input-page3" type="radio" name="page">
+        </label>
+      </div>
 
-    <button href="" class="content__button" onclick="RedirectIndex2()">Continue</button>
+      <button class="content__button" onclick="RedirectIndex2()">Continue</button>
 
-    <a class="content__anchor" href="./pages/page2.html">Skip</a>
+      <a class="content__anchor" href="#" onclick="RedirectIndex3()">Skip</a>
+    </section>
 
+
+
+    <section class="content" id="page2">
+      <img class="content__image" src="./images/image-2.svg" alt="">
+
+      <h1 class="content__title">Get fast & safe delivery</h1>
+
+      <p class="content__text">Get good quality products for your plants </p>
+
+      <div class="content__input">
+
+        <label class="bord" for="page" onclick="RedirectIndex1()">
+          <input id="input-page1" type="radio" name="page" value="page1" checked>
+        </label>
+
+        <label class="selected" for="page" onclick="RedirectIndex2()">
+          <input id="input-page2" type="radio" name="page" value="page2">
+        </label>
+
+        <label class="bord" for="page" onclick="RedirectIndex3()">
+          <input id="input-page3" type="radio" name="page" value="page3">
+        </label>
+      </div>
+
+      <button class="content__button" onclick="RedirectIndex3()">Continue</button>
+
+      <a class="content__anchor" href="#" onclick="RedirectIndex3()">Skip</a>
+    </section>
+
+
+
+    <section class="content" id="page3">
+      <img class="content__image" src="./images/image-3.svg" alt="">
+
+      <h1 class="content__title">Buy & Sell Tools</h1>
+
+      <p class="content__text">Buy & sell good quality products for your beautiful plants</p>
+
+      <div class="content__input">
+
+        <label class="bord" class="" onclick="RedirectIndex1()">
+          <input id="input-page1" type="radio" name="page" checked>
+        </label>
+
+        <label class="bord" onclick="RedirectIndex2()">
+          <input id="input-page2" type="radio" name="page">
+        </label>
+
+        <label class="selected" onclick="RedirectIndex3()">
+          <input id="input-page3" type="radio" name="page">
+        </label>
+      </div>
+
+      <button class="content__button" onclick="RedirectIndex1()">Get started</button>
+    </section>
   </main>
 </body>
 
